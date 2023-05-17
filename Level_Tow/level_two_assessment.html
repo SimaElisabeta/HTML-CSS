@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level 2 Assessment</title>
+  </head>
+  <body>
+    <h1>Course Sign Up Page</h1>
+
+    <p>Please Note: First Name, Last Name, Email and Password are required</p>
+    <!-- Call action to link submit button to thank you page -->
+    <form method="get" action="thank_you.html">
+      <!-- When using lable for will have the same name as id from input-->
+      <label for="firstname">First Name</label>
+      <input id="firstname" type="text" placeholder="First Name" required />
+
+      <label for="lastname">Last Name</label>
+      <input id="lastname" type="text" placeholder="Last Name" required />
+
+      <br />
+      <br />
+
+      <label for="mail">Email</label>
+      <input id="mail" type="email" placeholder="name@email.com" required />
+
+      <label for="pass">Password </label>
+      <input id="pass" type="password" required />
+
+      <!-- Radio buttons -->
+      <p>Are you over the age of 18?</p>
+
+      <!-- To link radios you need to give the same name for each input example: name="ageover"-->
+      <!-- When using lable for will have the same name as id from input-->
+      <!-- On the submit button name will get value from input-->
+      <label for="y">Yes:</label>
+      <input id="y" type="radio" name="ageover" value="yes" />
+
+      <label for="n">No:</label>
+      <input id="n" type="radio" name="ageover" value="no" />
+
+      <p>Do you have Credit Card or PayPal?</p>
+      <!-- Dropdown menue uses a select type -->
+      <!-- On the submit button when using select the name will get the value from each option -->
+      <select name="payment">
+        <option value="Credit">Credit Card</option>
+        <option value="PayPal">PayPal</option>
+      </select>
+
+      <br />
+      <br />
+
+      <input type="submit" name="" value="Sign Up!" />
+    </form>
+  </body>
+</html>
