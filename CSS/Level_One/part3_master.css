@@ -1,0 +1,34 @@
+body{
+    background-image: url(https://www.shihoriobata.com/wp-content/uploads/2020/08/how-to-draw-mountains-thumbnail.jpg);
+}
+
+.firstDiv{
+    color: blue;
+}
+
+.secondDiv{
+    color: green;
+}
+
+#single-element{
+    color: blueviolet;
+    text-decoration: line-through;
+}
+
+
+/* jason sibling selector */
+/* select all <ul> elements that are placed immediately after <h3> element */
+h3 + ul{
+    border: 4px dotted blueviolet
+}
+
+/* descendents */
+li a{
+ color: coral;
+}
+
+/* affect attributes */
+li a[href="https://www.w3schools.com/css/css_intro.asp"]{
+    color: cadetblue;
+    border: 2px dotted rgb(35, 121, 72);
+}

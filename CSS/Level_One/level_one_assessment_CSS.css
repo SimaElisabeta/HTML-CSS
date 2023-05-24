@@ -1,0 +1,62 @@
+/* 1 */
+body{
+    background: #658864;
+}
+
+/* 2 */
+h1{
+    border: 1px solid black;
+}
+
+/* 3 */
+h2{
+    color: violet;
+}
+
+/* 4 */
+input{
+    border: 2px solid #cf593b;
+}
+
+/* 5 */
+div p{
+    background: #dfe689;
+}
+
+/* 6 */
+#text-block{
+    border: 5px solid #474e75;
+    width: 800px;
+    height: 400px;
+}
+
+/* 7 */
+a{
+    color: #cf593b;
+}
+
+a:visited {
+    color: #89dbe6;
+}
+
+a:hover{
+    color: #8997e6;
+}
+
+/* 8 */
+#item-one{
+    color: violet;
+    text-decoration-line: overline;
+}
+
+/* 9 */
+.exit{
+    background: #5879ac;
+    border: 4px dashed #dfe689;
+    height: 150px;
+}
+
+#text-block-exit{
+    width: 70%;
+    height: 60%;
+}

@@ -1,0 +1,20 @@
+body{
+    /* background: gray; */
+    background: url(https://cdn.unenvironment.org/2022-09/nicolai-kramer-unsplash.jpg);
+}
+
+div{
+    background: cadetblue;
+    border-color: white;
+    border-width: 3px;
+    border-style: double;
+}
+
+p{
+    color:darkorchid;
+}
+
+span{
+    background: gray;
+    color: black;
+}
