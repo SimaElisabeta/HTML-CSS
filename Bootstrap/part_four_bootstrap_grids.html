@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Grid system</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="custom_style.css" />
+  </head>
+  <style>
+    .boxy {
+      background: #b3ddff;
+      border: 2px solid black;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 boxy">COL Large 4</div>
+        <div class="col-lg-4 boxy">COL Large 4</div>
+        <div class="col-lg-4 boxy">COL Large 4</div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 boxy">COL Medium 6</div>
+        <div class="col-md-6 boxy">COL Medium 6</div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 boxy">COL Small 6</div>
+        <div class="col-sm-6 boxy">COL Small 6</div>
+      </div>
+
+      <div class="row">
+        <div class="col-6 boxy">COL Extra Small 6</div>
+        <div class="col-6 boxy">COL Extra Small 6</div>
+      </div>
+
+      <div class="row">
+        <!-- Take 3 col for each element on large screen -->
+        <!-- After passing to small screen, split the col into 2 separate col and split them accordingly -->
+        <!-- Take 6 col for each element on small screen -->
+        <div class="col-lg-3 col-sm-6 boxy">ONE</div>
+        <div class="col-lg-3 col-sm-6 boxy">TWO</div>
+        <div class="col-lg-3 col-sm-6 boxy">THREE</div>
+        <div class="col-lg-3 col-sm-6 boxy">FOUR</div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
